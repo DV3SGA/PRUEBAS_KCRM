@@ -1,8 +1,8 @@
 $("#f_categoria").on("submit", function (e) {
 	e.preventDefault();
-	let categoria = document.getElementById("nombre").value
+	let categoria = document.getElementById("nombre_categoria").value
 	console.log(categoria);
-	let descripcion = document.getElementById("numero_referencia").value
+	let descripcion = document.getElementById("descripcion").value
 	console.log(descripcion);
      
 	localStorage.clear();
